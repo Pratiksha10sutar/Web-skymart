@@ -113,14 +113,14 @@ const Register = () => {
                   },
                   minLength: {
                     value: 8,
-                    message: "Mininum 6 characters are required",
+                    message: "Mininum 8 characters are required",
                   },
                   maxLength: {
                     value: 8,
-                    message: "Maximum 6 characters are required",
+                    message: "Maximum 8 characters are required",
                   },
                 })}
-                placeholder="Password (min 6 chars)"
+                placeholder="Password (min 8 chars)"
                 autoComplete="new-password"
                 type={showPassword ? "text" : "password"}
                 className="w-full bg-[#1D1D1D] text-white text-sm outline-none placeholder:text-white/40 pl-11 pr-11 py-3 rounded-xl border border-[#ffffff1a] focus:border-[#C8F400] transition-colors"
